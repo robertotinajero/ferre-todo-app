@@ -162,7 +162,7 @@ export default function Home() {
 
           <nav className="hidden items-center gap-3 text-sm font-bold lg:flex">
             <a href="#categorias">Categorias</a>
-            <a href="#admin">Admin</a>
+            <a href="/admin">Admin</a>
             <a
               href="#carrito"
               className="rounded bg-[#202020] px-4 py-3 text-white"
@@ -194,7 +194,7 @@ export default function Home() {
                 Ver productos
               </a>
               <a
-                href="#admin"
+                href="/admin"
                 className="rounded border border-white/40 px-6 py-3 text-center font-black"
               >
                 Panel administrador
